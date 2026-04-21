@@ -465,7 +465,7 @@ Sorry
   <div class="sorry-box">
     <h2>Dear Manasa,</h2>
     <p>I know I messed up and I'm <span class="pink">truly, deeply sorry</span>. 😔</p>
-    <p>You are the most <span class="purple">amazing, kind, and beautiful</span> person I know — and you deserve so much better than my mistake.plz don't leave me I promise you that I will be for you until my last breath.<span class="pink">[18-02-2025]</span> </p>
+    <p>You are the most <span class="purple">amazing, kind, and beautiful</span> person I know — and you deserve so much better than my mistake.plz don't leave me <span class="blue">I promise you that I will be for you until my last breath</span> <span class="pink">[18-02-2025]</span> </p>
     <p>Please forgive me? I promise to make it up to you with <span class="pink">chocolates 🍫, ice cream 🍦</span> and all the cute pets you want 🐾.</p>
     <p>You mean the <span class="purple">whole world</span> to me, Manasa. 🌍💕</p>
     <button class="btn-sorry" onclick="launchConfetti()">💖 Please Forgive Me!</button>
@@ -561,7 +561,7 @@ Sorry
     const reader = new FileReader();
     reader.onload = function(ev) {
       const card = document.getElementById('photoCard');
-      card.innerHTML = '<img src=e7c11e7ce65894aa648b784ddb4d5fc7"' + ev.target.result + '" alt="Manasa">';
+      card.innerHTML = '<img src="' + ev.target.result + '" alt="Manasa">';
     };
     reader.readAsDataURL(file);
   }
