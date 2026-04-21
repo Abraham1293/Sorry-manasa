@@ -1,5 +1,3 @@
-Sorry-manasa
-Sorry
 <!DOCTYPE html>
 <html lang="en">
 <head>
